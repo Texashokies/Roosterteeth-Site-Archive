@@ -82,9 +82,7 @@ customElements.define(
                     <div class="desc">
                     ${staticHtml`${unsafeStatic(micromark(page.description))}`}
                     </div>
-                    <a href="${encodeURIComponent(page.downloadLink)}">
-                        <img src="./images/download.svg" alt="Download icon>
-                    </a>
+                    <img src="./images/download.svg" alt="Download icon>
                   </div>
                 </a>
               </li>

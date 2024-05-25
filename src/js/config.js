@@ -10,9 +10,11 @@ class Site {
 }
 
 class Archive {
-  constructor({ name, url = '', description = '' }) {
+  constructor({ name, url = '', description = '', deepLink='',downloadLink='' }) {
     this.url = url;
     this.description = description;
+    this.deepLink = deepLink;
+    this.downloadLink = downloadLink;
     this.name =
       name || url.slice(url.lastIndexOf('/') + 1, url.lastIndexOf('.'));
   }
@@ -43,10 +45,12 @@ function makeArchive(data, idx) {
   ) {
     name = data.name;
     url = data.url;
+    deepLink = data.deepLink;
+    downloadLink = data.downloadLink;
   }
 
   if (url) {
-    return new Archive({ name, url, description: data.description });
+    return new Archive({ name, url, description: data.description, deepLink:data.deepLink, downloadLink: data.downloadLink });
   }
 
   console.error(`Invalid WACZ data at index ${idx || 'unknown'}, skipping`);
