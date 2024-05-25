@@ -74,7 +74,7 @@ customElements.define(
             (page) => html`
               <li>
                 <a
-                  href="./archive/?source=${encodeURIComponent(page.url)}&url=${encodeURIComponent(page.deepLink)}"
+                  href="./archive/?source=${encodeURIComponent(page.url)}&url=${page.deepLink == null ? "":encodeURIComponent(page.deepLink)}"
                   title=${page.description}
                 >
                   <div class="archive">
