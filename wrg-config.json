@@ -15,10 +15,10 @@
     },
     {
         "name": "business.roosterteeth.com",
-        "url": "s3://roosterteetharchivebucket/Misc Pages/rt-blog.wacz",
+        "url": "s3://roosterteetharchivebucket/Misc Pages/rooster_teeth_business.wacz",
         "description": "Site used to show to advertisers what Rooster Teeth is",
         "deepLink": "https://blog.roosterteeth.com/",
-        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Misc+Pages/rt-blog.wacz"
+        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Misc+Pages/rooster_teeth_business.wacz"
     },
     {
         "name": "support.roosterteeth.com",
