@@ -19,6 +19,13 @@
         "description": "Fully archived all support articles",
         "deepLink": "https://support.roosterteeth.com/",
         "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Misc+Pages/rt-support.wacz"
+    },
+    {
+        "name": "roosterteethstore.zendesk.com",
+        "url": "s3://roosterteetharchivebucket/RT Store/rt-store-zendesk.wacz",
+        "description": "Fully archived all support articles for the rooster teeth store",
+        "deepLink": "https://roosterteethstore.zendesk.com",
+        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/RT+Store/rt-store-zendesk.wacz"
     }
   ]
 }
