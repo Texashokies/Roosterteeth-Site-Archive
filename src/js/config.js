@@ -33,8 +33,8 @@ class ReplayOptions {
  * @returns {Archive}
  */
 function makeArchive(data, idx) {
-  let name, url;
-
+  let name, url,deepLink,downloadLink;
+  console.log(data);
   if (typeof data === 'string') {
     url = data;
   } else if (
@@ -50,7 +50,7 @@ function makeArchive(data, idx) {
   }
 
   if (url) {
-    return new Archive({ name, url, description: data.description, deepLink:data.deepLink, downloadLink: data.downloadLink });
+    return new Archive({ name, url, description: data.description, deepLink, downloadLink});
   }
 
   console.error(`Invalid WACZ data at index ${idx || 'unknown'}, skipping`);
