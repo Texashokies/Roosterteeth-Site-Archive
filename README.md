@@ -17,4 +17,10 @@ Manually using [ArchiveWeb.Page](https://github.com/webrecorder/archiveweb.page)
  and my own [automated archiving tool](https://github.com/Texashokies/Roosterteeth_Webarchiver)
 
  ## Issues
+The actual archive files and formats were not created by me, so any issue found may not be fixable by me.
+
+### Known
+The product images for store pages does not show, hovever you can click to zoom in and see the images.
+
+ ### New
  If you have encountered a missing page in an archive, and the page is still live on the internet please create an issue in the repo so we can archive that page.

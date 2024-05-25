@@ -47,6 +47,13 @@
         "description": "The brand collections and products for those brands available March 26th",
         "deepLink": "https://store.roosterteeth.com/",
         "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/RT+Store/rt-store-3_26-brands.wacz"
+    },
+    {
+        "name": "store.roosterteeth.com New Arrivals March 25th",
+        "url": "s3://roosterteetharchivebucket/RT Store/rt-store-new-arrivals-3_25.wacz",
+        "description": "The brand collections and products for those brands available March 26th",
+        "deepLink": "https://store.roosterteeth.com/collections/new-arrivals",
+        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/RT+Store/rt-store-new-arrivals-3_25.wacz"
     }
   ]
 }
