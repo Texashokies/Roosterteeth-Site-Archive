@@ -74,7 +74,7 @@ customElements.define(
             (page) => html`
               <li>
                 <a
-                  href="./archive/?source=${encodeURIComponent(page.url)}"
+                  href="./archive/?source=${encodeURIComponent(page.url)}&url=${encodeURIComponent(page.deepLink)}"
                   title=${page.description}
                 >
                   <div class="archive">
@@ -82,6 +82,9 @@ customElements.define(
                     <div class="desc">
                     ${staticHtml`${unsafeStatic(micromark(page.description))}`}
                     </div>
+                    <a href="${encodeURIComponent(page.downloadLink)}">
+                        <img src="./images/download.svg" alt="Download icon>
+                    </a>
                   </div>
                 </a>
               </li>
