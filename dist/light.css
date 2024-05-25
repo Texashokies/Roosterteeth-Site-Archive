@@ -465,3 +465,13 @@
   --box-shadow: var(--sl-shadow-large);
   margin: var(--sl-spacing-medium);
 }
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.replay-container{
+    width: 100%;
+    height: 100%;
+}

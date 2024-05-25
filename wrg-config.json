@@ -1,17 +1,16 @@
 {
   "site": {
-    "title": "Web Replay Gen Example"
+    "title": "Roosterteeth Site Archive"
+  },
+  "replay":{
+    "embed":"default"
   },
   "archives": [
     {
-      "name": "Example",
-      "url": "https://replayweb.page/docs/assets/example.wacz",
-      "description": "ReplayWeb.Page web archive example"
-    },
-    {
-      "name": "Twitter",
-      "url": "s3://webrecorder-builds/warcs/netpreserve-twitter.warc",
-      "description": "Netpreserve Twitter web archive example"
+      "name": "blog.roosterteeth.com",
+      "url": "s3://roosterteetharchivebucket/Misc Pages/rt-blog.wacz",
+      "description": "The RT blog was a series of posts original comming from the Poppycock group of the old roosterteeth site. The blogs articles and comments are fully archived. Author links and tags are not archived.",
+      "deepLink": "https://blog.roosterteeth.com/"
     }
   ]
 }
