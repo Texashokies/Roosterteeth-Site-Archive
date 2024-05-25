@@ -17,6 +17,7 @@
         "name": "support.roosterteeth.com",
         "url": "s3://roosterteetharchivebucket/Misc Pages/rt-support.wacz",
         "description": "Fully archived all support articles",
+        "deepLink": "https://support.roosterteeth.com/",
         "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Misc+Pages/rt-support.wacz"
     }
   ]

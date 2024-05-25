@@ -85,7 +85,6 @@ customElements.define(
                   </div>
                 </a>
                 <a href="https://${page.downloadLink}">
-                    <img src="assets/download.svg" alt="Download icon">
                     <p>Download archive</p>
                 </a>
               </li>
