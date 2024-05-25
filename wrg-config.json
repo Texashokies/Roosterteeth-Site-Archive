@@ -37,9 +37,16 @@
     {
         "name": "store.roosterteeth.com/collections/all March 25th",
         "url": "s3://roosterteetharchivebucket/RT Store/rt-store-3_25-all-run.wacz",
-        "description": "The collection and product pages for all products available march 25th",
+        "description": "The collection and product pages for all products available March 25th",
         "deepLink": "https://store.roosterteeth.com/collections/all",
         "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/RT+Store/rt-store-3_25-all-run.wacz"
+    },
+    {
+        "name": "store.roosterteeth.com Brand pages and producst March 26th",
+        "url": "s3://roosterteetharchivebucket/RT Store/rt-store-3_26-brands.wacz",
+        "description": "The brand collections and products for those brands available March 26th",
+        "deepLink": "https://store.roosterteeth.com/",
+        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/RT+Store/rt-store-3_26-brands.wacz"
     }
   ]
 }
