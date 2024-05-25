@@ -67,6 +67,7 @@ customElements.define(
           replayBase=${this.replayOpts.replayBase}
           embed=${this.replayOpts.embed}
           deepLink
+          updateFavicons
         ></replay-web-page>
       `;
     }

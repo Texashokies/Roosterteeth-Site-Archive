@@ -14,11 +14,18 @@
       "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Misc+Pages/rt-blog.wacz"
     },
     {
+        "name": "business.roosterteeth.com",
+        "url": "s3://roosterteetharchivebucket/Misc Pages/rt-blog.wacz",
+        "description": "Site used to show to advertisers what Rooster Teeth is",
+        "deepLink": "https://blog.roosterteeth.com/",
+        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Misc+Pages/rt-blog.wacz"
+    },
+    {
         "name": "support.roosterteeth.com",
-        "url": "s3://roosterteetharchivebucket/Misc Pages/rt-support.wacz",
+        "url": "s3://roosterteetharchivebucket/Misc Pages/rooster_teeth_business.wacz",
         "description": "Fully archived all support articles",
-        "deepLink": "https://support.roosterteeth.com/",
-        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Misc+Pages/rt-support.wacz"
+        "deepLink": "https://www.business.roosterteeth.com/",
+        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Misc+Pages/rooster_teeth_business.wacz"
     },
     {
         "name": "roosterteethstore.zendesk.com",
@@ -33,6 +40,13 @@
         "description": "A page promoting joining FIRST ",
         "deepLink": "https://info.roosterteeth.com/",
         "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Misc+Pages/rt-info.wacz"
+    },
+    {
+        "name": "staging.store.roosterteeth.com",
+        "url": "s3://roosterteetharchivebucket/Staging Store/staging-rt-store.wacz",
+        "description": "A test website for the RT store. Mostly missing products",
+        "deepLink": "https://store.staging.roosterteeth.com/collections",
+        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Staging+Store/staging-rt-store.wacz"
     },
     {
         "name": "store.roosterteeth.com/collections/all March 25th",
@@ -51,16 +65,16 @@
     {
         "name": "store.roosterteeth.com New Arrivals March 25th",
         "url": "s3://roosterteetharchivebucket/RT Store/rt-store-new-arrivals-3_25.wacz",
-        "description": "The brand collections and products for those brands available March 26th",
+        "description": "New arrivals collection and products on March 25th",
         "deepLink": "https://store.roosterteeth.com/collections/new-arrivals",
         "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/RT+Store/rt-store-new-arrivals-3_25.wacz"
     },
     {
-        "name": "staging.store.roosterteeth.com",
-        "url": "s3://roosterteetharchivebucket/Staging Store/staging-rt-store.wacz",
-        "description": "A test website for the RT store. Mostly missing products",
-        "deepLink": "https://store.staging.roosterteeth.com/collections",
-        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Staging+Store/staging-rt-store.wacz"
+        "name": "store.roosterteeth.com New Arrivals April 16th",
+        "url": "s3://roosterteetharchivebucket/RT Store/rt-store-4_16.wacz",
+        "description": "New arrivals collection and products on April 16th",
+        "deepLink": "https://store.roosterteeth.com/collections/new-arrivals",
+        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/RT+Store/rt-store-4_16.wacz"
     },
     {
         "name": "RT Store Panton Takeover",
@@ -73,8 +87,22 @@
         "name": "RT Store Closed",
         "url": "s3://roosterteetharchivebucket/RT Store/rt-store-closed.wacz",
         "description": "The rooster teeth store shutdown",
-        "deepLink": "https://store.roosterteeth.com/",
+        "deepLink": "https://store.roosterteeth.com/password",
         "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/RT+Store/rt-store-closed.wacz"
+    },
+    {
+        "name": "RT UK Store",
+        "url": "s3://roosterteetharchivebucket/UK Store/rt-store-uk.wacz",
+        "description": "The rooster teeth uk store",
+        "deepLink": "https://store.roosterteeth.co.uk/",
+        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/UK+Store/rt-store-uk.wacz"
+    },
+    {
+        "name": "RT UK Store Closed",
+        "url": "s3://roosterteetharchivebucket/UK Store/rt-uk-store-closed.wacz",
+        "description": "The rooster teeth uk store closed",
+        "deepLink": "https://store.roosterteeth.co.uk/password",
+        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/UK+Store/rt-uk-store-closed.wacz"
     }
   ]
 }
