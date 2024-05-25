@@ -26,6 +26,20 @@
         "description": "Fully archived all support articles for the rooster teeth store",
         "deepLink": "https://roosterteethstore.zendesk.com",
         "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/RT+Store/rt-store-zendesk.wacz"
+    },
+    {
+        "name": "info.roosterteeth.com",
+        "url": "s3://roosterteetharchivebucket/Misc Pages/rt-info.wacz",
+        "description": "A page promoting joining FIRST ",
+        "deepLink": "https://info.roosterteeth.com/",
+        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Misc+Pages/rt-info.wacz"
+    },
+    {
+        "name": "store.roosterteeth.com/collections/all March 25th",
+        "url": "s3://roosterteetharchivebucket/RT Store/rt-store-3_25-all-run.wacz",
+        "description": "The collection and product pages for all products available march 25th",
+        "deepLink": "https://store.roosterteeth.com/collections/all",
+        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/RT+Store/rt-store-3_25-all-run.wacz"
     }
   ]
 }
