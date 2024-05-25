@@ -54,6 +54,27 @@
         "description": "The brand collections and products for those brands available March 26th",
         "deepLink": "https://store.roosterteeth.com/collections/new-arrivals",
         "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/RT+Store/rt-store-new-arrivals-3_25.wacz"
+    },
+    {
+        "name": "staging.store.roosterteeth.com",
+        "url": "s3://roosterteetharchivebucket/Staging Store/staging-rt-store.wacz",
+        "description": "A test website for the RT store. Mostly missing products",
+        "deepLink": "https://store.staging.roosterteeth.com/collections",
+        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Staging+Store/staging-rt-store.wacz"
+    },
+    {
+        "name": "RT Store Panton Takeover",
+        "url": "s3://roosterteetharchivebucket/RT Store/rt-panton-store.wacz",
+        "description": "The roosterteeth store taken over by F**kFace",
+        "deepLink": "https://store.roosterteeth.com/",
+        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/RT+Store/rt-panton-store.wacz"
+    },
+    {
+        "name": "RT Store Closed",
+        "url": "s3://roosterteetharchivebucket/RT Store/rt-store-closed.wacz",
+        "description": "The rooster teeth store shutdown",
+        "deepLink": "https://store.roosterteeth.com/",
+        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/RT+Store/rt-store-closed.wacz"
     }
   ]
 }
