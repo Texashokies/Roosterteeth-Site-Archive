@@ -93,7 +93,7 @@
     {
         "name": "RT UK Store",
         "url": "s3://roosterteetharchivebucket/UK Store/rt-store-uk.wacz",
-        "description": "The rooster teeth uk store",
+        "description": "The rooster teeth uk store. Some links not captured for all collections.",
         "deepLink": "https://store.roosterteeth.co.uk/",
         "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/UK+Store/rt-store-uk.wacz"
     },
@@ -103,6 +103,13 @@
         "description": "The rooster teeth uk store closed",
         "deepLink": "https://store.roosterteeth.co.uk/password",
         "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/UK+Store/rt-uk-store-closed.wacz"
+    },
+    {
+        "name": "Roosterteeth.com Series, ETC",
+        "url": "s3://roosterteetharchivebucket/my-web-archive.wacz",
+        "description": "The rooster teeth site prior to shutdown",
+        "deepLink": "https://roosterteeth.com",
+        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/my-web-archive.wacz"
     }
   ]
 }
