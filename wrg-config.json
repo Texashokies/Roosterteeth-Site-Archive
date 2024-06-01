@@ -153,6 +153,7 @@
         "name": "Release notes May 6th",
         "url": "s3://roosterteetharchivebucket/Community/release-notes-test.wacz",
         "description": "The community release notes may 5th page.",
+        "deepLink":"https://roosterteeth.com/g/release-notes",
         "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Community/release-notes-test.wacz" 
     }
 
