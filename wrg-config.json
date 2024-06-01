@@ -115,21 +115,46 @@
         "name": "staging.roosterteeth.com Community Pages April 30th",
         "url": "s3://roosterteetharchivebucket/Staging Community/staging-community-4_30.wacz",
         "description": "The staging rooster teeth site used for testing, community pages are the only pages that differ.",
-        "deepLink": "https://staging.roosterteeth.com",
+        "deepLink": "https://staging.roosterteeth.com/g/all",
         "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Staging+Community/staging-community-4_30.wacz" 
     },
     {
         "name": "staging.roosterteeth.com Community Pages May 14th",
         "url": "s3://roosterteetharchivebucket/Staging Community/staging-community-5-14.wacz",
         "description": "The staging rooster teeth site used for testing, community pages are the only pages that differ.",
-        "deepLink": "https://staging.roosterteeth.com",
+        "deepLink": "https://staging.roosterteeth.com/g/all",
         "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Staging+Community/staging-community-5-14.wacz" 
     },
     {
-        "name": "roosterteeth.com Community Pages May 15th",
+        "name": "roosterteeth.com Community Pages May 12th",
+        "url": "s3://roosterteetharchivebucket/Community/community-all-groups-may-12.wacz",
+        "description": "The rooster teeth site community pages from may 12th.",
+        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Community/community-all-groups-may-12.wacz" 
+    },
+    {
+        "name": "roosterteeth.com Community Pages May 14th",
+        "url": "s3://roosterteetharchivebucket/Community/community-all-groups-may-14th.wacz",
+        "description": "The rooster teeth site community pages from may 14th.",
+        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Community/community-all-groups-may-14th.wacz" 
+    },
+    {
+        "name": "roosterteeth.com Community Pages May 14/15th",
         "url": "s3://roosterteetharchivebucket/Community/roosterteeth-community-archive_5-15-2024.wacz",
         "description": "The rooster teeth site community pages from may 14-15th.",
-        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Community/roosterteeth-community-archive_5-15-2024.waczz" 
+        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Community/roosterteeth-community-archive_5-15-2024.wacz" 
+    },
+    {
+        "name": "roosterteeth.com Community Pages May 15th",
+        "url": "s3://roosterteetharchivebucket/Community/community-all-groups-may-15.wacz",
+        "description": "The rooster teeth site community pages from may 15th.",
+        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Community/community-all-groups-may-15.wacz" 
+    },
+    {
+        "name": "Release notes May 6th",
+        "url": "s3://roosterteetharchivebucket/Community/release-notes-test.wacz",
+        "description": "The community release notes may 5th page.",
+        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Community/release-notes-test.wacz" 
     }
+
   ]
 }
