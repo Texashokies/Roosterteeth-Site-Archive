@@ -7,6 +7,13 @@
   },
   "archives": [
     {
+        "name": "Roosterteeth Community Full",
+        "url": "s3://roosterteetharchivebucket/Community/RT-Community.wacz",
+        "description": "All archived community pages!",
+        "deepLink": "https://roosterteeth.com/g/all",
+        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Community/RT-Community.wacz"
+    },
+    {
       "name": "blog.roosterteeth.com",
       "url": "s3://roosterteetharchivebucket/Misc Pages/rt-blog.wacz",
       "description": "Fully archived all articles from RT blog!",
