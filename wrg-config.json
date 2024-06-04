@@ -10,7 +10,7 @@
         "name": "Roosterteeth Community Full",
         "url": "s3://roosterteetharchivebucket/Community/RT-Community.wacz",
         "description": "All archived community pages!",
-        "deepLink": "https://roosterteeth.com/g/all",
+        "deepLink": "https://roosterteeth.com/g/all&ts=20240516030751",
         "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Community/RT-Community.wacz"
     },
     {
