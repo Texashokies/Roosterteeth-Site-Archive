@@ -8,9 +8,9 @@
   "archives": [
     {
         "name": "Roosterteeth Community Full",
-        "url": "s3://roosterteetharchivebucket/Community/RT-Community.wacz",
+        "url": "s3://roosterteetharchivebucket/Community/RT-Single-Community.wacz",
         "description": "All archived community pages!",
-        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Community/RT-Community.wacz",
+        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Community/RT-Single-Community.wacz",
         "tag":"community"
     },
     {
