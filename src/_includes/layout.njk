@@ -13,15 +13,18 @@
             console.log("clicking tab: ", tabName);
             if(tabName === "all"){
                 let x = document.getElementsByClassName('archive');
+                console.log("Found archives: ", x);
                 for(let i =0;i<x.length;i++){
                     x[i].style.display = "block";
                 }
             } else{
                 let y = document.getElementsByClassName('archive');
+                console.log("Found archives: ", y);
                 for(let i =0;i<y.length;i++){
                     y[i].style.display = "none";
                 }
                 let x = document.getElementsByClassName(tabName);
+                console.log("Found tab relevant archives: ", x);
                 for(let i =0;i<x.length;i++){
                     x[i].style.display = "block";
                 }
