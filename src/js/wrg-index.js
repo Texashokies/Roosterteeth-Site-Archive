@@ -70,10 +70,10 @@ customElements.define(
 
       return html`
         <div id='tabs'>
-            <button onClick="clickTab('All')">All</button>
-            <button onClick="clickTab('Store')">Store</button>
-            <button onClick="clickTab('Store')">Community</button>
-            <button onClick="clickTab('Store')">Misc</button>
+            <button onClick="clickTab('all')">All</button>
+            <button onClick="clickTab('store')">Store</button>
+            <button onClick="clickTab('communiy')">Community</button>
+            <button onClick="clickTab('misc')">Misc</button>
         </div>
         <ul>
           ${this._archives.map(
