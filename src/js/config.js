@@ -10,7 +10,7 @@ class Site {
 }
 
 class Archive {
-  constructor({ name, url = '', description = '', deepLink='',downloadLink='' }) {
+  constructor({ name, url = '', description = '', deepLink='',downloadLink='',tag='' }) {
     this.url = url;
     this.description = description;
     this.deepLink = deepLink;
