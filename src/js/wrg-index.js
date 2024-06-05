@@ -69,10 +69,16 @@ customElements.define(
       }
 
       return html`
+        <div id='tabs'>
+            <button onClick="clickTab('all')">All</button>
+            <button onClick="clickTab('store')">Store</button>
+            <button onClick="clickTab('community')">Community</button>
+            <button onClick="clickTab('misc')">Misc</button>
+        </div>
         <ul>
           ${this._archives.map(
             (page) => html`
-              <li>
+              <li class="${page.tag} archive-list-item">
                 <a
                   href="./archive/?source=${encodeURIComponent(page.url)}#url=${page.deepLink == null ? "":encodeURIComponent(page.deepLink)}"
                   title=${page.description}
