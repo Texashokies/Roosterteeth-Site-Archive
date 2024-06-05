@@ -4,3 +4,7 @@ import "./wrg-archives-count.js";
 import "./wrg-header.js";
 import "./wrg-replay.js";
 import "./wrg-search.js";
+
+function clickTab(tabName){
+    console.log("Clicked tab: ",tabName);
+}

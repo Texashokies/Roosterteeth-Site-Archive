@@ -69,6 +69,12 @@ customElements.define(
       }
 
       return html`
+        <div id='tabs'>
+            <button onClick="clickTab('All')">All</button>
+            <button onClick="clickTab('Store')">Store</button>
+            <button onClick="clickTab('Store')">Community</button>
+            <button onClick="clickTab('Store')">Misc</button>
+        </div>
         <ul>
           ${this._archives.map(
             (page) => html`
