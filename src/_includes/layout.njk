@@ -12,16 +12,16 @@
         function clickTab(tabName){
             console.log("clicking tab: ", tabName);
             if(tabName === "all"){
-                let x = document.getElementsByClass('archive');
+                let x = document.getElementsByClassName('archive');
                 for(let i =0;i<x.length;i++){
                     x[i].style.display = "block";
                 }
             } else{
-                let y = document.getElementsByClass('archive');
+                let y = document.getElementsByClassName('archive');
                 for(let i =0;i<y.length;i++){
                     y[i].style.display = "none";
                 }
-                let x = document.getElementsByClass(tabName);
+                let x = document.getElementsByClassName(tabName);
                 for(let i =0;i<x.length;i++){
                     x[i].style.display = "block";
                 }
