@@ -99,13 +99,5 @@ customElements.define(
         </ul>
       `;
     }
-
-    clickTab(tabName){
-        console.log("Clicked tab inside class: ",tabName);
-    }
   }
 );
-
-function clickTab(tabName){
-    console.log("Clicked tab outside class: ",tabName);
-}
