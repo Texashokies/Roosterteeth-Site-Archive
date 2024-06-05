@@ -78,7 +78,7 @@ customElements.define(
         <ul>
           ${this._archives.map(
             (page) => html`
-              <li class="${page.tag}">
+              <li class="${page.tag} archive">
                 <a
                   href="./archive/?source=${encodeURIComponent(page.url)}#url=${page.deepLink == null ? "":encodeURIComponent(page.deepLink)}"
                   title=${page.description}

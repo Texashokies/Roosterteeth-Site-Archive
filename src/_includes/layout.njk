@@ -11,6 +11,21 @@
     <script>
         function clickTab(tabName){
             console.log("clicking tab: ", tabName);
+            if(tabName === "all){
+                let x = document.getElementsByClass('archive');
+                for(let i =0;i<x.length;i++){
+                    x[i].style.display = "block";
+                }
+            } else{
+                let y = document.getElementsByClass('archive');
+                for(let i =0;i<y.length;i++){
+                    y[i].style.display = "none";
+                }
+                let x = document.getElementsByClass(tabName);
+                for(let i =0;i<x.length;i++){
+                    x[i].style.display = "block";
+                }
+            }
         }
     </script>
   </head>

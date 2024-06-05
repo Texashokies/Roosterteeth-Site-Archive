@@ -35,7 +35,6 @@ class ReplayOptions {
  */
 function makeArchive(data, idx) {
   let name, url,deepLink,downloadLink,tag;
-  console.log(data);
   if (typeof data === 'string') {
     url = data;
   } else if (
