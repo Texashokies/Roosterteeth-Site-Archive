@@ -17,6 +17,8 @@
                 for(let i =0;i<x.length;i++){
                     x[i].style.display = "block";
                 }
+                let count = document.querySelector('#current-archive-count');
+                count.innerHtml = '';
             } else{
                 let y = document.querySelector('wrg-index').shadowRoot.querySelectorAll('.archive-list-item');
                 console.log("Found archives: ", y);
@@ -28,6 +30,8 @@
                 for(let i =0;i<x.length;i++){
                     x[i].style.display = "block";
                 }
+                let count = document.querySelector('#current-archive-count');
+                count.innerHtml = x.length + " of ";
             }
         }
     </script>
