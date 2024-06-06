@@ -7,8 +7,8 @@ import '@shoelace-style/shoelace/dist/components/menu-label/menu-label.js';
 import '@shoelace-style/shoelace/dist/components/input/input.js';
 import initConfig from './config.js';
 
-function getPathname(url) {
-  return `../archive/?source=${encodeURIComponent(url)}`;
+function getPathname(url,deepLink) {
+  return `./archive/?source=${encodeURIComponent(url)}#url=${deepLink == null ? "":encodeURIComponent(deepLink)}`;
 }
 
 customElements.define(
@@ -179,7 +179,7 @@ customElements.define(
               </div>`
             : ''}
           <footer>
-            <a href=${getPathname(this._selectedArchive.url)}>View Archive</a>
+            <a href=${getPathname(this._selectedArchive.url,this._selectedArchive.deepLink)}>View Archive</a>
           </footer>
         </sl-card>
       `;
