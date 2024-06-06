@@ -91,7 +91,7 @@ customElements.define(
                   </div>
                 </a>
                 <a href="https://${page.downloadLink}">
-                    <p>Download archive</p>
+                    <p>Download archive ${page.downloadSize}</p> 
                 </a>
               </li>
             `

@@ -10,11 +10,12 @@ class Site {
 }
 
 class Archive {
-  constructor({ name, url = '', description = '', deepLink='',downloadLink='',tag='' }) {
+  constructor({ name, url = '', description = '', deepLink='',downloadLink='',downloadSize='',tag='' }) {
     this.url = url;
     this.description = description;
     this.deepLink = deepLink;
     this.downloadLink = downloadLink;
+    this.downloadSize = downloadSize;
     this.tag = tag;
     this.name =
       name || url.slice(url.lastIndexOf('/') + 1, url.lastIndexOf('.'));
@@ -34,7 +35,7 @@ class ReplayOptions {
  * @returns {Archive}
  */
 function makeArchive(data, idx) {
-  let name, url,deepLink,downloadLink,tag;
+  let name, url,deepLink,downloadLink,downloadSize,tag;
   if (typeof data === 'string') {
     url = data;
   } else if (
@@ -46,12 +47,13 @@ function makeArchive(data, idx) {
     name = data.name;
     url = data.url;
     deepLink = data.deepLink;
+    downloadSize = data.downloadSize;
     downloadLink = data.downloadLink;
     tag = data.tag;
   }
 
   if (url) {
-    return new Archive({ name, url, description: data.description, deepLink, downloadLink,tag});
+    return new Archive({ name, url, description: data.description, deepLink, downloadLink,downloadSize,tag});
   }
 
   console.error(`Invalid WACZ data at index ${idx || 'unknown'}, skipping`);

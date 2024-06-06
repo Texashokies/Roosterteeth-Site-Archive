@@ -180,6 +180,9 @@ customElements.define(
             : ''}
           <footer>
             <a href=${getPathname(this._selectedArchive.url)}>View Archive</a>
+            <a href="https://${this._selectedArchive.downloadLink}">
+                <p>Download archive ${this._selectedArchive.downloadSize}</p> 
+            </a>
           </footer>
         </sl-card>
       `;
