@@ -13,25 +13,24 @@
             console.log("clicking tab: ", tabName);
             if(tabName === "all"){
                 let x = document.querySelector('wrg-index').shadowRoot.querySelectorAll('.archive-list-item');
-                console.log("Found archives: ", x);
                 for(let i =0;i<x.length;i++){
                     x[i].style.display = "block";
                 }
                 let count = document.querySelector('#current-archive-count');
-                count.innerHtml = '';
+                console.log(count);
+                count.innerHTML = '';
             } else{
                 let y = document.querySelector('wrg-index').shadowRoot.querySelectorAll('.archive-list-item');
-                console.log("Found archives: ", y);
                 for(let i =0;i<y.length;i++){
                     y[i].style.display = "none";
                 }
                 let x = document.querySelector('wrg-index').shadowRoot.querySelectorAll("." + tabName);
-                console.log("Found tab relevant archives: ", x);
                 for(let i =0;i<x.length;i++){
                     x[i].style.display = "block";
                 }
                 let count = document.querySelector('#current-archive-count');
-                count.innerHtml = x.length + " of ";
+                console.log(count);
+                count.innerHTML = x.length + " of ";
             }
         }
     </script>
