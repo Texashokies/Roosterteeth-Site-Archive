@@ -17,7 +17,6 @@
                     x[i].style.display = "block";
                 }
                 let count = document.querySelector('#current-archive-count');
-                console.log(count);
                 count.innerHTML = '';
             } else{
                 let y = document.querySelector('wrg-index').shadowRoot.querySelectorAll('.archive-list-item');
@@ -29,7 +28,6 @@
                     x[i].style.display = "block";
                 }
                 let count = document.querySelector('#current-archive-count');
-                console.log(count);
                 count.innerHTML = x.length + " of ";
             }
         }
