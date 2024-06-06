@@ -7,11 +7,48 @@
   },
   "archives": [
     {
+        "name": "Roosterteeth.com homepage, series, etc.",
+        "url": "s3://roosterteetharchivebucket/main-site-pages.wacz",
+        "description": "The rooster teeth site prior to shutdown",
+        "deepLink": "https://roosterteeth.com",
+        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/main-site-pages.wacz",
+        "tag":"misc"
+    },
+    {
         "name": "Roosterteeth Community Full",
         "url": "s3://roosterteetharchivebucket/Community/RT-Single-Community.wacz",
         "description": "All archived community pages!",
         "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Community/RT-Single-Community.wacz",
         "tag":"community"
+    },
+    {
+        "name": "Roosterteeth Store Full",
+        "url": "s3://roosterteetharchivebucket/RT Store/RT-Store-Combined.wacz",
+        "description": "All archived store pages!",
+        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/RT+Store/RT-Store-Combined.wacz",
+        "tag":"store"
+    },
+    {
+        "name": "RT UK Store Full",
+        "url": "s3://roosterteetharchivebucket/UK Store/RT-UK-Store.wacz",
+        "description": "The rooster teeth uk store. Some links not captured for all collections.",
+        "deepLink": "https://store.roosterteeth.co.uk/",
+        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/UK+Store/RT-UK-Store.wacz",
+        "tag":"store"
+    },
+    {
+        "name": "Staging Roosterteeth Community Full",
+        "url": "s3://roosterteetharchivebucket/Staging Community/RT-Staging-Community.wacz",
+        "description": "All archived staging community pages!",
+        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Staging+Community/RT-Staging-Community.wacz",
+        "tag":"community"
+    },
+    {
+        "name": "Account hub and settings",
+        "url": "s3://roosterteetharchivebucket/Misc Pages/rt-newaccount.wacz",
+        "description": "Archived profile hub and account settings.",
+        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Misc+Pages/rt-newaccount.wacz",
+        "tag":"misc"
     },
     {
       "name": "blog.roosterteeth.com",
@@ -70,7 +107,7 @@
         "tag":"store"
     },
     {
-        "name": "store.roosterteeth.com Brand pages and producst March 26th",
+        "name": "store.roosterteeth.com Brand pages and products March 26th",
         "url": "s3://roosterteetharchivebucket/RT Store/rt-store-3_26-brands.wacz",
         "description": "The brand collections and products for those brands available March 26th",
         "deepLink": "https://store.roosterteeth.com/",
@@ -110,30 +147,6 @@
         "tag":"store"
     },
     {
-        "name": "RT UK Store",
-        "url": "s3://roosterteetharchivebucket/UK Store/rt-store-uk.wacz",
-        "description": "The rooster teeth uk store. Some links not captured for all collections.",
-        "deepLink": "https://store.roosterteeth.co.uk/",
-        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/UK+Store/rt-store-uk.wacz",
-        "tag":"store"
-    },
-    {
-        "name": "RT UK Store Closed",
-        "url": "s3://roosterteetharchivebucket/UK Store/rt-uk-store-closed.wacz",
-        "description": "The rooster teeth uk store closed",
-        "deepLink": "https://store.roosterteeth.co.uk/password",
-        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/UK+Store/rt-uk-store-closed.wacz",
-        "tag":"store"
-    },
-    {
-        "name": "Roosterteeth.com Series, ETC",
-        "url": "s3://roosterteetharchivebucket/my-web-archive.wacz",
-        "description": "The rooster teeth site prior to shutdown",
-        "deepLink": "https://roosterteeth.com",
-        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/my-web-archive.wacz",
-        "tag":"misc"
-    },
-    {
         "name": "staging.roosterteeth.com Community Pages April 30th",
         "url": "s3://roosterteetharchivebucket/Staging Community/staging-community-4_30.wacz",
         "description": "The staging rooster teeth site used for testing, community pages are the only pages that differ.",
@@ -154,6 +167,13 @@
         "url": "s3://roosterteetharchivebucket/Community/community-all-groups-may-12.wacz",
         "description": "The rooster teeth site community pages from may 12th.",
         "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Community/community-all-groups-may-12.wacz",
+        "tag":"community" 
+    },
+    {
+        "name": "roosterteeth.com Community Pages May 13th",
+        "url": "s3://roosterteetharchivebucket/Community/community-all-groups-may-13th.wacz",
+        "description": "The rooster teeth site community pages from may 13th.",
+        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Community/community-all-groups-may-13th.wacz",
         "tag":"community" 
     },
     {
@@ -192,6 +212,13 @@
         "tag":"community" 
     },
     {
+        "name": "Community Coffee Group May 6th",
+        "url": "s3://roosterteetharchivebucket/Community/community-coffee-5_6.wacz",
+        "description": "The Community Coffee group captured May 6th.",
+        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Community/community-coffee-5_6.wacz",
+        "tag":"community" 
+    },
+    {
         "name": "Dallas Fort Worth Group May 6th",
         "url": "s3://roosterteetharchivebucket/Community/dfw-group-5_6.wacz",
         "description": "The Dallas Fort Worth Community group captured May 6th.",
@@ -203,13 +230,6 @@
         "url": "s3://roosterteetharchivebucket/Community/good-mfh-5_6.wacz",
         "description": "Good Morning From Hell Group Community group captured May 6th.",
         "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Community/good-mfh-5_6.wacz",
-        "tag":"community" 
-    },
-    {
-        "name": "Inside Gaming Group May 6th",
-        "url": "s3://roosterteetharchivebucket/Community/inside-gaming-5_6.wacz",
-        "description": "Inside Gaming Group Community group captured May 6th.",
-        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Community/inside-gaming-5_6.wacz",
         "tag":"community" 
     },
     {
@@ -318,13 +338,6 @@
         "tag":"community" 
     },
     {
-        "name": "RT San Antonio Group May 6th",
-        "url": "s3://roosterteetharchivebucket/Community/rt-san-antonio-5-6.wacz",
-        "description": "RT San Antonio Community group captured May 6th",
-        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Community/rt-san-antonio-5-6.wacz",
-        "tag":"community" 
-    },
-    {
         "name": "RT Scandinavia Group May 6th",
         "url": "s3://roosterteetharchivebucket/Community/rt-scandinavia-5-6.wacz",
         "description": "RT Scandinavia Community group captured May 6th",
@@ -347,16 +360,16 @@
     },
     {
         "name": "RT Various Groups May 7th",
-        "url": "s3://roosterteetharchivebucket/Community/rt-various-try-3-5-7.wacz",
+        "url": "s3://roosterteetharchivebucket/Community/rt-various-groups-5-7.wacz",
         "description": "Various groups captured May 7th.",
-        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Community/rt-various-try-3-5-7.wacz",
+        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Community/rt-various-groups-5-7.wacz",
         "tag":"community" 
     },
     {
         "name": "RT Various Groups May 8th",
-        "url": "s3://roosterteetharchivebucket/Community/rt-various-try-4-5-8.wacz",
+        "url": "s3://roosterteetharchivebucket/Community/rt-various-groups-5-8.wacz",
         "description": "Various groups captured May 8th.",
-        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Community/rt-various-try-4-5-8.wacz",
+        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Community/rt-various-groups-5-8.wacz",
         "tag":"community" 
     },
     {
@@ -406,6 +419,27 @@
         "url": "s3://roosterteetharchivebucket/Community/RT-Community-Near-End.wacz",
         "description": "Some community member accounts/main group pages captured May 15th right before site shutdown.",
         "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Community/RT-Community-Near-End.wacz",
+        "tag":"community"
+    },
+    {
+        "name": "Various Users May 13th",
+        "url": "s3://roosterteetharchivebucket/Community/various-users-may-13.wacz",
+        "description": "Some community member accounts captured May 13th.",
+        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Community/various-users-may-13.wacz",
+        "tag":"community"
+    },
+    {
+        "name": "Various Users May 14th",
+        "url": "s3://roosterteetharchivebucket/Community/may-14-some-community-members.wacz",
+        "description": "Some community member accounts captured May 14th.",
+        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Community/may-14-some-community-members.wacz",
+        "tag":"community"
+    },
+    {
+        "name": "Various Users May 15th",
+        "url": "s3://roosterteetharchivebucket/Community/RT-rand-users.wacz",
+        "description": "Some community member accounts captured May 15th.",
+        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Community/RT-rand-users.wacz",
         "tag":"community"
     }
   ]
