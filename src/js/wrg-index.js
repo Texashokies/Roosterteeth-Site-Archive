@@ -69,7 +69,7 @@ customElements.define(
       }
 
       return html`
-        <div id="tabs" style="padding-bottom=5px">
+        <div id="tabs" style="padding-bottom: 1rem;">
             <button onClick="clickTab('all')">All</button>
             <button onClick="clickTab('store')">Store</button>
             <button onClick="clickTab('community')">Community</button>
