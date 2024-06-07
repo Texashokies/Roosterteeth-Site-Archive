@@ -179,7 +179,7 @@ customElements.define(
               </div>`
             : ''}
           <footer>
-            <a href=${getPathname(this._selectedArchive.url,this._selectedArchive.deepLink,this._selectedArchive.deepLinkAddition,this.deepLinkQuery)}>View Archive</a>
+            <a href=${getPathname(this._selectedArchive.url,this._selectedArchive.deepLink,this._selectedArchive.deepLinkAddition,this._selectedArchive.deepLinkQuery)}>View Archive</a>
             <a href="https://${this._selectedArchive.downloadLink}">
                 <p>Download archive ${this._selectedArchive.downloadSize}</p> 
             </a>
