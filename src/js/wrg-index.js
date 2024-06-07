@@ -80,7 +80,7 @@ customElements.define(
             (page) => html`
               <li class="${page.tag} archive-list-item">
                 <a
-                  href="./archive/?source=${encodeURIComponent(page.url)}${(page.deepLinkQuery == null ?"":"#query=".concat(page.deepLinkQuery))}#url=${(page.deepLink == null ? "":encodeURIComponent(page.deepLink)).concat(page.deepLinkAddition == null ?"":page.deepLinkAddition)}"
+                  href="./archive/?source=${encodeURIComponent(page.url)}${(page.deepLinkQuery == null ?"":"#query=".concat(page.deepLinkQuery))}${(page.deepLink == null ? "":"#url=".concat(encodeURIComponent(page.deepLink))).concat(page.deepLinkAddition == null ?"":page.deepLinkAddition)}"
                   title=${page.description}
                 >
                   <div class="archive">
