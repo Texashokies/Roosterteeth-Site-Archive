@@ -432,7 +432,7 @@
         "name": "RT Various Groups May 6th",
         "url": "s3://roosterteetharchivebucket/Community/Various-Groups-5-6.wacz",
         "description": "Various groups captured May 6th.",
-        "deepLinkAddition":"#query=https%3A%2F%2Froosterteeth.com",
+        "deepLinkQuery":"https://roosterteeth.com",
         "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Community/Various-Groups-5-6.wacz",
         "downloadSize":"1.4 GB",
         "tag":"community" 
