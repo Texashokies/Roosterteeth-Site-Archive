@@ -69,7 +69,7 @@ customElements.define(
       }
 
       return html`
-        <div id='tabs'>
+        <div id="tabs" class="pb-3">
             <button onClick="clickTab('all')">All</button>
             <button onClick="clickTab('store')">Store</button>
             <button onClick="clickTab('community')">Community</button>
