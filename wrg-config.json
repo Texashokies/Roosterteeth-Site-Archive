@@ -19,6 +19,8 @@
         "name": "Roosterteeth Community Full",
         "url": "s3://roosterteetharchivebucket/Community/RT-Single-Community.wacz",
         "description": "All archived community pages!",
+        "deepLink":"https://roosterteeth.com/g/all",
+        "deepLinkAddition":"&ts=20240516030751",
         "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Community/RT-Single-Community.wacz",
         "downloadSize":"82.4 GB",
         "tag":"community"
