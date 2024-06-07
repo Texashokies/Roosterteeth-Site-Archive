@@ -69,7 +69,7 @@ customElements.define(
       }
 
       return html`
-        <div id='tabs'>
+        <div id="tabs" style="padding-bottom: 1rem;">
             <button onClick="clickTab('all')">All</button>
             <button onClick="clickTab('store')">Store</button>
             <button onClick="clickTab('community')">Community</button>
@@ -80,7 +80,7 @@ customElements.define(
             (page) => html`
               <li class="${page.tag} archive-list-item">
                 <a
-                  href="./archive/?source=${encodeURIComponent(page.url)}#url=${page.deepLink == null ? "":encodeURIComponent(page.deepLink)}"
+                  href="./archive/?source=${encodeURIComponent(page.url)}${(page.deepLinkQuery == '' ?"":"#query=".concat(page.deepLinkQuery))}${(page.deepLink == '' ? "":"#url=".concat(encodeURIComponent(page.deepLink))).concat(page.deepLinkAddition == null ?"":page.deepLinkAddition)}"
                   title=${page.description}
                 >
                   <div class="archive">
