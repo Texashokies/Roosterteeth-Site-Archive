@@ -7,8 +7,8 @@ import '@shoelace-style/shoelace/dist/components/menu-label/menu-label.js';
 import '@shoelace-style/shoelace/dist/components/input/input.js';
 import initConfig from './config.js';
 
-function getPathname(url,deepLink) {
-  return `./archive/?source=${encodeURIComponent(url)}#url=${deepLink == null ? "":encodeURIComponent(deepLink)}`;
+function getPathname(url,deepLink,deepLinkAddition,deepLinkQuery) {
+  return `./archive/?source=${encodeURIComponent(url)}${(deepLinkQuery == '' ?"":"#query=".concat(deepLinkQuery))}${(deepLink == '' ? "":"#url=".concat(encodeURIComponent(deepLink))).concat(deepLinkAddition == null ?"":deepLinkAddition)}`;
 }
 
 customElements.define(
@@ -179,7 +179,7 @@ customElements.define(
               </div>`
             : ''}
           <footer>
-            <a href=${getPathname(this._selectedArchive.url,this._selectedArchive.deepLink)}>View Archive</a>
+            <a href=${getPathname(this._selectedArchive.url,this._selectedArchive.deepLink,this._selectedArchive.deepLinkAddition,this.deepLinkQuery)}>View Archive</a>
             <a href="https://${this._selectedArchive.downloadLink}">
                 <p>Download archive ${this._selectedArchive.downloadSize}</p> 
             </a>

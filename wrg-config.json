@@ -124,15 +124,6 @@
         "tag":"store"
     },
     {
-        "name": "store.roosterteeth.com Brand pages and products March 26th",
-        "url": "s3://roosterteetharchivebucket/RT Store/rt-store-3_26-brands.wacz",
-        "description": "The brand collections and products for those brands available March 26th",
-        "deepLink": "https://store.roosterteeth.com/",
-        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/RT+Store/rt-store-3_26-brands.wacz",
-        "downloadSize":"76.6 MB",
-        "tag":"store"
-    },
-    {
         "name": "store.roosterteeth.com New Arrivals March 25th",
         "url": "s3://roosterteetharchivebucket/RT Store/rt-store-new-arrivals-3_25.wacz",
         "description": "New arrivals collection and products on March 25th",
@@ -142,21 +133,21 @@
         "tag":"store"
     },
     {
+        "name": "store.roosterteeth.com Brand pages and products March 26th",
+        "url": "s3://roosterteetharchivebucket/RT Store/rt-store-3_26-brands.wacz",
+        "description": "The brand collections and products for those brands available March 26th",
+        "deepLink": "https://store.roosterteeth.com/",
+        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/RT+Store/rt-store-3_26-brands.wacz",
+        "downloadSize":"76.6 MB",
+        "tag":"store"
+    },
+    {
         "name": "store.roosterteeth.com New Arrivals April 16th",
         "url": "s3://roosterteetharchivebucket/RT Store/rt-store-4_16.wacz",
         "description": "New arrivals collection and products on April 16th",
         "deepLink": "https://store.roosterteeth.com/collections/new-arrivals",
         "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/RT+Store/rt-store-4_16.wacz",
         "downloadSize":"10.4 MB",
-        "tag":"store"
-    },
-    {
-        "name": "RT Store Panton Takeover",
-        "url": "s3://roosterteetharchivebucket/RT Store/rt-panton-store.wacz",
-        "description": "The roosterteeth store taken over by F**kFace",
-        "deepLink": "https://store.roosterteeth.com/",
-        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/RT+Store/rt-panton-store.wacz",
-        "downloadSize":"3.9 MB",
         "tag":"store"
     },
     {
@@ -215,7 +206,7 @@
     {
         "name": "roosterteeth.com Community Pages May 14/15th",
         "url": "s3://roosterteetharchivebucket/Community/roosterteeth-community-archive_5-15-2024.wacz",
-        "description": "The rooster teeth site community pages from may 14-15th.",
+        "description": "The rooster teeth site community pages from may 14-15th. Captured by Meekakitty.",
         "deepLink":"https://roosterteeth.com/g",
         "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Community/roosterteeth-community-archive_5-15-2024.wacz",
         "downloadSize":"9.1 GB",
@@ -441,6 +432,7 @@
         "name": "RT Various Groups May 7th",
         "url": "s3://roosterteetharchivebucket/Community/rt-various-groups-5-7.wacz",
         "description": "Various groups captured May 7th.",
+        "deepLinkQuery":"https://roosterteeth.com",
         "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Community/rt-various-groups-5-7.wacz",
         "downloadSize":"2.4 GB",
         "tag":"community" 
@@ -449,6 +441,7 @@
         "name": "RT Various Groups May 8th",
         "url": "s3://roosterteetharchivebucket/Community/rt-various-groups-5-8.wacz",
         "description": "Various groups captured May 8th.",
+        "deepLinkQuery":"https://roosterteeth.com",
         "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Community/rt-various-groups-5-8.wacz",
         "downloadSize":"787.4 MB",
         "tag":"community" 
@@ -457,6 +450,7 @@
         "name": "RT Animated Adventures Group May 6th",
         "url": "s3://roosterteetharchivebucket/Community/rtaa-5_6.wacz",
         "description": "RT Animated Adventures group captured May 6th.",
+        "deepLink":"https://roosterteeth.com/g/rtaa",
         "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Community/rtaa-5_6.wacz",
         "downloadSize":"20.1 MB",
         "tag":"community" 
@@ -465,6 +459,7 @@
         "name": "RTX Group May 6th",
         "url": "s3://roosterteetharchivebucket/Community/rtx-5-6.wacz",
         "description": "RTX group captured May 6th.",
+        "deepLink":"https://roosterteeth.com/g/rtx",
         "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Community/rtx-5-6.wacz",
         "downloadSize":"250.7 MB",
         "tag":"community" 
@@ -473,6 +468,7 @@
         "name": "RWBY Group May 1st",
         "url": "s3://roosterteetharchivebucket/Community/rwby-5-1.wacz",
         "description": "RWBY group captured May 1st.",
+        "deepLink":"https://roosterteeth.com/g/rwby",
         "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Community/rwby-5-1.wacz",
         "downloadSize":"2.2 GB",
         "tag":"community" 
@@ -481,6 +477,7 @@
         "name": "Red Vs Blue Group May 5th",
         "url": "s3://roosterteetharchivebucket/Community/RVB-5-6.wacz",
         "description": "Red Vs Blue group captured May 5th.",
+        "deepLink":"https://roosterteeth.com/g/red-vs-blue",
         "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Community/RVB-5-6.wacz",
         "downloadSize":"4.3 GB",
         "tag":"community" 
@@ -490,6 +487,7 @@
         "url": "s3://roosterteetharchivebucket/Community/thisjustinternet-5-1.wacz",
         "description": "This Just Internet Group captured May 1st.",
         "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Community/thisjustinternet-5-1.wacz",
+        "deepLink":"https://roosterteeth.com/g/this-just-internet",
         "downloadSize":"3.4 GB",
         "tag":"community" 
     },
@@ -498,6 +496,7 @@
         "url": "s3://roosterteetharchivebucket/Community/staff-followers-5-15.wacz",
         "description": "Staff Accounts and Followers May 15th.",
         "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Community/staff-followers-5-15.wacz",
+        "deepLinkQuery":"https://roosterteeth.com",
         "downloadSize":"1.5 GB",
         "tag":"community" 
     },
@@ -506,6 +505,7 @@
         "url": "s3://roosterteetharchivebucket/Community/RT-Community-Near-End.wacz",
         "description": "Some community member accounts/main group pages captured May 15th right before site shutdown.",
         "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Community/RT-Community-Near-End.wacz",
+        "deepLink":"https://roosterteeth.com/g/all",
         "downloadSize":"322.1 MB",
         "tag":"community"
     },
@@ -529,6 +529,7 @@
         "name": "Various Users May 15th",
         "url": "s3://roosterteetharchivebucket/Community/RT-rand-users.wacz",
         "description": "Some community member accounts captured May 15th.",
+        "deepLinkQuery":"https://roosterteeth.com",
         "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Community/RT-rand-users.wacz",
         "downloadSize":"566.5 MB",
         "tag":"community"
