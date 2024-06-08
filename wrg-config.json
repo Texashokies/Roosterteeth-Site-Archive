@@ -7,6 +7,15 @@
   },
   "archives": [
     {
+        "name": "End of Roosterteeth.com",
+        "url": "s3://roosterteetharchivebucket/rt-end.wacz",
+        "description": "The rooster teeth after shutdown",
+        "deepLink": "https://roosterteeth.com",
+        "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/rt-end.wacz",
+        "downloadSize":"5.4 MB",
+        "tag":"misc"
+    },
+    {
         "name": "Roosterteeth.com homepage, series, etc.",
         "url": "s3://roosterteetharchivebucket/main-site-pages.wacz",
         "description": "The rooster teeth site prior to shutdown",
