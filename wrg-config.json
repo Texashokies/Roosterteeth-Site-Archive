@@ -82,6 +82,7 @@
         "name": "90s.roosterteeth.com",
         "url": "s3://roosterteetharchivebucket/Misc Pages/rt-90s.wacz",
         "description": "90's themed webpagefrom Rooster Teeth Online CD",
+        "deepLink": "https://90s.roosterteeth.com/svod/",
         "downloadLink":"roosterteetharchivebucket.s3.us-east-2.amazonaws.com/Misc+Pages/rt-90s.wacz",
         "downloadSize":"4.0 MB",
         "tag":"misc"
